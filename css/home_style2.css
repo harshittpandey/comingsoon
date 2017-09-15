@@ -28,7 +28,7 @@ a {
 
 a:hover,
 a:focus {
-	color: #f46377;
+	color: #fff;
 	outline: none;
 }
 
@@ -151,7 +151,6 @@ a:focus {
 }
 
 .landing-header__title {
-	font-family: 'Raleway', serif;
 	font-size: 8em;
 	font-weight: 900;
 	line-height: 1;
@@ -164,18 +163,14 @@ a:focus {
 }
 
 .landing-header__tagline {
-	font-size: 0.95em;
-	padding: 0.65em 1em;
-	font-weight: 600;
-	line-height: 1;
+	font-size: 1em;
+    font-weight: 500;
 	text-transform: uppercase;
-	letter-spacing: 3px;
+	letter-spacing: 10px;
 	max-width: 500px;
 	margin: 0 auto;
-	color: #fff;
-	text-indent: 3px;
-	background: #f46377;
-	font-family: "Crimson Text", serif;
+	color: #2D2D2D;
+	text-indent: 10px;
 }
 
 .featured-content {
